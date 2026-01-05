@@ -40,3 +40,12 @@ In this application, a dataset from the UCI Machine Learning repository is used.
 * Customers are less likely to commit term deposits during higher employment activity and higher interest rates, possibly due to alternate spend and invenstment channels.
 * Customers are more likely to respond positively when communicated via mobile phones than landline phones. Marketing should aim to prioratize such contact methods.
 * Repetitive contacts during the same campaign period are less effective.
+
+### Future Improvements & Next Steps
+
+While the Logistic Regression model achieved high accuracy, the **Confusion Matrix** revealed a potential for improvement by focusing on **Recall**.
+
+* **Optimize for Recall:** Currently, the model is balanced for accuracy. In a business context, missing a potential subscriber (False Negative) is more costlier than calling a non-subscriber. Future iterations will use **Precision-Recall Curves** to tune the model.
+* **Feature Engineering:** Based on the high success rate in March, I recommend creating seasonal features to better capture timing based customer behaviors.
+
+
